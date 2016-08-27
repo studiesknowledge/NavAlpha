@@ -11,7 +11,6 @@
 		4DA9734D1D7171BA009CB9D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9734C1D7171BA009CB9D6 /* AppDelegate.m */; };
 		4DA973551D7171BA009CB9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA973541D7171BA009CB9D6 /* Assets.xcassets */; };
 		4DA973581D7171BA009CB9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA973561D7171BA009CB9D6 /* LaunchScreen.storyboard */; };
-		4DA973611D7172CD009CB9D6 /* ZDNavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA973601D7172CD009CB9D6 /* ZDNavTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +21,6 @@
 		4DA973541D7171BA009CB9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA973571D7171BA009CB9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DA973591D7171BA009CB9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DA9735F1D7172CD009CB9D6 /* ZDNavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDNavTableViewController.h; sourceTree = "<group>"; };
-		4DA973601D7172CD009CB9D6 /* ZDNavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDNavTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +55,6 @@
 			children = (
 				4DA9734B1D7171BA009CB9D6 /* AppDelegate.h */,
 				4DA9734C1D7171BA009CB9D6 /* AppDelegate.m */,
-				4DA9735F1D7172CD009CB9D6 /* ZDNavTableViewController.h */,
-				4DA973601D7172CD009CB9D6 /* ZDNavTableViewController.m */,
 				4DA973541D7171BA009CB9D6 /* Assets.xcassets */,
 				4DA973561D7171BA009CB9D6 /* LaunchScreen.storyboard */,
 				4DA973591D7171BA009CB9D6 /* Info.plist */,
@@ -145,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA973611D7172CD009CB9D6 /* ZDNavTableViewController.m in Sources */,
 				4DA9734D1D7171BA009CB9D6 /* AppDelegate.m in Sources */,
 				4DA9734A1D7171BA009CB9D6 /* main.m in Sources */,
 			);

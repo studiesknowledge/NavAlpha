@@ -20,6 +20,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ZDNavTableViewController alloc] init]];
+    
+    // 在导航栏颜色变透明时，导航底部的线条仍然存在，解决：
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    
     [self.window makeKeyAndVisible];
     
     return YES;

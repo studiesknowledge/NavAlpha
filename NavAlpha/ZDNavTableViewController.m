@@ -7,6 +7,7 @@
 //
 
 #import "ZDNavTableViewController.h"
+#import "UINavigationBar+ZDNavAlpha.h"
 
 @interface ZDNavTableViewController ()
 
@@ -34,6 +35,29 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
     return 0;
+}
+
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+
+    //可以设置导航栏的颜色为蓝色
+    UIColor *bc = [UIColor blueColor];
+    
+    // tableView滚动的y值
+    CGFloat contentY = scrollView.contentOffset.y;
+    
+    //当scrollY变为40时，导航栏颜色开始发生变化
+    CGFloat alphaScale = (40 + 64 - contentY) / 64;
+    
+    if (contentY > 40) {
+        
+        [self.navigationController.navigationBar setalphaNavWithColor:[bc colorWithAlphaComponent:alphaScale]];
+    }else {
+        
+        // 如果contentY小于40 则颜色还是为蓝色
+        [self.navigationController.navigationBar setalphaNavWithColor:[bc colorWithAlphaComponent:1]];
+    }
+
 }
 
 

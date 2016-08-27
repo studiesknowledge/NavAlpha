@@ -12,6 +12,7 @@
 		4DA973551D7171BA009CB9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA973541D7171BA009CB9D6 /* Assets.xcassets */; };
 		4DA973581D7171BA009CB9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA973561D7171BA009CB9D6 /* LaunchScreen.storyboard */; };
 		4DA973641D717355009CB9D6 /* ZDNavTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA973631D717355009CB9D6 /* ZDNavTableViewController.m */; };
+		4DA973671D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA973661D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		4DA973591D7171BA009CB9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA973621D717355009CB9D6 /* ZDNavTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDNavTableViewController.h; sourceTree = "<group>"; };
 		4DA973631D717355009CB9D6 /* ZDNavTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDNavTableViewController.m; sourceTree = "<group>"; };
+		4DA973651D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+ZDNavAlpha.h"; sourceTree = "<group>"; };
+		4DA973661D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+ZDNavAlpha.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				4DA9734C1D7171BA009CB9D6 /* AppDelegate.m */,
 				4DA973621D717355009CB9D6 /* ZDNavTableViewController.h */,
 				4DA973631D717355009CB9D6 /* ZDNavTableViewController.m */,
+				4DA973651D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.h */,
+				4DA973661D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.m */,
 				4DA973541D7171BA009CB9D6 /* Assets.xcassets */,
 				4DA973561D7171BA009CB9D6 /* LaunchScreen.storyboard */,
 				4DA973591D7171BA009CB9D6 /* Info.plist */,
@@ -147,6 +152,7 @@
 			files = (
 				4DA973641D717355009CB9D6 /* ZDNavTableViewController.m in Sources */,
 				4DA9734D1D7171BA009CB9D6 /* AppDelegate.m in Sources */,
+				4DA973671D71743E009CB9D6 /* UINavigationBar+ZDNavAlpha.m in Sources */,
 				4DA9734A1D7171BA009CB9D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
